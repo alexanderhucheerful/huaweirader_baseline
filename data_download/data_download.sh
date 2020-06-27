@@ -1,12 +1,12 @@
 #define your datasaving path
-#Õâ¸ö½Å±¾ÓĞµãbug½÷É÷ÔËĞĞ
+#è¿™ä¸ªè„šæœ¬æœ‰ç‚¹bugè°¨æ…è¿è¡Œ
 yourpath="../../"
 
 # download the data 
 wget https://ma-competitions-bj4ther.zip 
 
-#ÎÒ¾õµÃÖÆ×÷Õâ¸öÊı¾İ¼¯µÄÈËÊÇ¹ÊÒâµÄ£¬ÄÔ×ÓÓĞ²¡°É
-#»¹µÃ°²×°rar½âÑ¹
+
+#è¿˜å¾—å®‰è£…rarè§£å‹
 wget http://www.rarlab.com/rar/rarlinux-x64-4.2.0.tar.gz
 sudo su
 tar zxvf rarlinux-x64-4.2.0.tar.gz -C /usr/local
@@ -24,8 +24,8 @@ mkdir ${yourpath}/test
 # need to change the dataname to unzip
 #vim -e U8bad#U7ec3#U96c61-2-3-4.zip<<-! 
 
-unzip ÑµÁ·¼¯1-2-3-4.zip -d  ${yourpath}/train
-unrar x TEST1-³õÈü²âÊÔ¼¯.rar -d  ${yourpath}/test
+unzip è®­ç»ƒé›†1-2-3-4.zip -d  ${yourpath}/train
+unrar x TEST1-åˆèµ›æµ‹è¯•é›†.rar -d  ${yourpath}/test
 
 cd ${yourpath}/train 
 
