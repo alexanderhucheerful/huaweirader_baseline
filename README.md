@@ -1,5 +1,6 @@
 # huaweirader_baseline
 - 华为云杯”2020深圳开放数据应用创新大赛 ·粤港澳大湾区强降水临近预测赛道
+- If you think this project is good or helpful, please give me a star,thanks
 - web address： https://www.sodic.com.cn/
 - This is a huaweirader_baseline 
 - our team competition rank is 25
