@@ -3,6 +3,7 @@
 - If you think this project is good or helpful, please give me a star,thanks
 - web address： https://www.sodic.com.cn/
 - This is a huaweirader_baseline 
+- team name: 掌握气象核心技术
 - our team competition rank is 25
 - welcome to communication
 # 文档详细说明
