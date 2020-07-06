@@ -49,17 +49,7 @@ class filtrate_dbz():
         """
         this is my process in jupyter filter that one is not complete so i drop it 
         ----
-        df = fuck.groupby(['index']).describe().reset_index()
-        # one rader seq have 61 members 
-        df[df['fname']['count'].values != 61].index
-        df.loc[lambda df: df['fname']['count'].values != 61, :]
 
-        so i find the missing pkl number is :
-             RAD_456382474222539
-        the situation can descripe than it:
-        (1) if the missing_number is small i will derecrt drop it
-        (2) if missing_number is big i should padding and fill it but this work must do convert metadata to rader
-            data,so just do it
 
         """
 
