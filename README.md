@@ -5,6 +5,7 @@
 - This is a huaweirader_baseline 
 - team name: 掌握气象核心技术
 - our team competition rank is 25
+- final rank is 11
 - welcome to communication
 # 文档详细说明
 ## train&inference 流程
