@@ -277,7 +277,7 @@ class predrnn_encoder(nn.Module):
                     input_hidden = inputh
                     #print(z)
 
-                hidden_state[layer][0],hidden_state[layer][0],m_state = self.cell_list[layer*3+2](input_hidden,hidden_state[layer][0],hidden_state[layer][1],m_state)
+                hidden_state[layer][0],hidden_state[layer][1],m_state = self.cell_list[layer*3+2](input_hidden,hidden_state[layer][0],hidden_state[layer][1],m_state)
         
         next_m = m_state
         return hidden_state,next_m,z
